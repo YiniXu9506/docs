@@ -1,5 +1,6 @@
 ---
-title: docs v1.0
+title: docs v3.0
+summary: Learn about what TiDB is, and the key features, architecture and roadmap of TiDB.
 category: introduction
 ---
 
@@ -7,17 +8,33 @@ category: introduction
 
 ## TiDB introduction
 
-TiDB (The pronunciation is: /'taɪdiːbi:/ tai-D-B, etymology: titanium) is a Hybrid Transactional/Analytical Processing (HTAP) database. Inspired by the design of Google F1 and Google Spanner, TiDB features infinite horizontal scalability, strong consistency, and high availability. The goal of TiDB is to serve as a one-stop solution for online transactions and analyses.
+TiDB (The pronunciation is: /'taɪdiːbi:/ tai-D-B, etymology: titanium) is an open-source distributed scalable Hybrid Transactional and Analytical Processing (HTAP) database. It features infinite horizontal scalability, strong consistency, and high availability. TiDB is MySQL compatible and serves as a one-stop data warehouse for both OLTP (Online Transactional Processing) and OLAP (Online Analytical Processing) workloads.
 
-- __Horizontal and linear scalability__
-- __Compatible with MySQL protocol__
-- __Automatic failover and high availability__
-- __Consistent distributed transactions__
-- __Online DDL__
-- __Multiple storage engine support__
-- __Highly concurrent and real-time writing and query of large volume of data (HTAP)__
+- __Horizontal scalability__
 
-TiDB is designed to support both OLTP (Online Transactional Processing) and OLAP (Online Analytical Processing) scenarios. For complex OLAP scenarios, use [TiSpark](tispark/tispark-user-guide.md).
+    TiDB provides horizontal scalability simply by adding new nodes. Never worry about infrastructure capacity ever again.
+
+- __MySQL compatibility__
+
+    Easily replace MySQL with TiDB to power your applications without changing a single line of code in most cases and still benefit from the MySQL ecosystem.
+
+- __Distributed transaction__
+
+    TiDB is your source of truth, guaranteeing ACID compliance, so your data is accurate and reliable anytime, anywhere.
+
+- __Cloud Native__
+
+    TiDB is designed to work in the cloud -- public, private, or hybrid -- making deployment, provisioning, and maintenance drop-dead simple.
+
+- __No more ETL__
+
+    ETL (Extract, Transform and Load) is no longer necessary with TiDB's hybrid OLTP/OLAP architecture, enabling you to create new values for your users, easier and faster.
+
+- __High availability__
+
+    With TiDB, your data and applications are always on and continuously available, so your users are never disappointed.
+
+TiDB is designed to support both OLTP and OLAP scenarios. For complex OLAP scenarios, use [TiSpark](tispark/tispark-user-guide.md).
 
 Read the following three articles to understand TiDB techniques:
 
@@ -38,11 +55,9 @@ Read the [Roadmap](https://github.com/pingcap/docs/blob/master/ROADMAP.md).
 
 ## TiDB architecture
 
-To better understand TiDB’s features, you need to understand the TiDB architecture.
+To better understand TiDB's features, you need to understand the TiDB architecture. The TiDB cluster includes three key components: the TiDB server, the PD server, and the TiKV server. In addition, TiDB also provides the [TiSpark](https://github.com/pingcap/tispark/) component for the complex OLAP requirements.
 
 ![image alt text](media/tidb-architecture.png)
-
-The TiDB cluster has three components: the TiDB server, the PD server,  and the TiKV server.
 
 ### TiDB server
 
@@ -76,6 +91,10 @@ As a cluster, PD needs to be deployed to an odd number of nodes. Usually it is r
 
 The TiKV server is responsible for storing data. From an external view, TiKV is a distributed transactional Key-Value storage engine. Region is the basic unit to store data. Each Region stores the data for a particular Key Range which is a left-closed and right-open interval from StartKey to EndKey. There are multiple Regions in each TiKV node. TiKV uses the Raft protocol for replication to ensure the data consistency and disaster recovery. The replicas of the same Region on different nodes compose a Raft Group. The load balancing of the data among different TiKV nodes are scheduled by PD. Region is also the basic unit for scheduling the load balance.
 
+### TiSpark
+
+TiSpark deals with the complex OLAP requirements. TiSpark makes Spark SQL directly run on the storage layer of the TiDB cluster, combines the advantages of the distributed TiKV cluster, and integrates into the big data ecosystem. With TiSpark, TiDB can support both OLTP and OLAP scenarios in one cluster, so the users never need to worry about data synchronization.
+
 ## Features
 
 ### Horizontal scalability
@@ -96,4 +115,4 @@ PD is a cluster and the data consistency is ensured using the Raft protocol. If 
 
 #### TiKV
 
-TiKV is a cluster and the data consistency is ensured using the Raft protocol. The number of the replicas can be configurable and the default is 3 replicas. The load of TiKV servers are balanced through PD. If one of the node is down, all the Regions in the node will be impacted. If the failed node is the Leader of the Region, the service will be interrupted and a new election will be initiated. If the failed node is a Follower of the Region, the service will not be impacted. If a TiKV node is down for a period of time (the default value is 10 minutes), PD will move the data to another TiKV node.
+TiKV is a cluster and the data consistency is ensured using the Raft protocol. The number of the replicas can be configurable and the default is 3 replicas. The load of TiKV servers are balanced through PD. If one of the node is down, all the Regions in the node will be impacted. If the failed node is the Leader of the Region, the service will be interrupted and a new election will be initiated. If the failed node is a Follower of the Region, the service will not be impacted. If a TiKV node is down for a period of time (default 30 minutes), PD will move the data to another TiKV node.

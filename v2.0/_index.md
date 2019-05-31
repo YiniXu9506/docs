@@ -1,5 +1,5 @@
 ---
-title: About TiDB
+title: docs v2.0
 summary: Learn about what TiDB is, and the key features, architecture and roadmap of TiDB.
 category: introduction
 ---
