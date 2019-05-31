@@ -2,7 +2,7 @@
 title: Loader Instructions
 summary: Use Loader to load data to TiDB.
 category: reference
-aliases: ['/docs/tools/loader/']
+aliases: ['/docs/dev/tools/loader/']
 ---
 
 # Loader Instructions
@@ -11,7 +11,7 @@ aliases: ['/docs/tools/loader/']
 
 Loader is a data import tool to load data to TiDB.
 
-It can be [downloaded](/dev/reference/tools/download.md) as part of the Enterprise Tools package.
+It can be [downloaded](reference/tools/download.md) as part of the Enterprise Tools package.
 
 ## Why did we develop Loader?
 

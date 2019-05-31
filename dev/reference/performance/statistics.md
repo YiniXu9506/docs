@@ -2,7 +2,7 @@
 title: Introduction to Statistics
 summary: Learn how the statistics collect table-level and column-level information.
 category: reference
-aliases: ['/docs/sql/statistics/']
+aliases: ['/docs/dev/sql/statistics/']
 ---
 
 # Introduction to Statistics

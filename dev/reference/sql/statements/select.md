@@ -2,7 +2,7 @@
 title: SELECT | TiDB SQL Statement Reference 
 summary: An overview of the usage of SELECT for the TiDB database.
 category: reference
-aliases: ['/docs/sql/dml/']
+aliases: ['/docs/dev/sql/dml/']
 ---
 
 # SELECT 
@@ -88,7 +88,7 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [INSERT](/dev/reference/sql/statements/insert.md)
-* [DELETE](/dev/reference/sql/statements/delete.md)
-* [UPDATE](/dev/reference/sql/statements/update.md)
-* [REPLACE](/dev/reference/sql/statements/replace.md)
+* [INSERT](reference/sql/statements/insert.md)
+* [DELETE](reference/sql/statements/delete.md)
+* [UPDATE](reference/sql/statements/update.md)
+* [REPLACE](reference/sql/statements/replace.md)

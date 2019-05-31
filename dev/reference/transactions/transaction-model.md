@@ -2,7 +2,7 @@
 title: Transaction Model
 summary: Learn TiDB's transaction model and its differences with MySQL.
 category: reference
-aliases: ['/docs/sql/transaction-model/']
+aliases: ['/docs/dev/sql/transaction-model/']
 ---
 
 # Transaction Model

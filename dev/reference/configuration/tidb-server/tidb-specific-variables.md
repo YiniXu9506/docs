@@ -2,7 +2,7 @@
 title: TiDB Specific System Variables
 summary: Use system variables specific to TiDB to optimize performance.
 category: reference
-aliases: ['/docs/sql/tidb-specific/']
+aliases: ['/docs/dev/sql/tidb-specific/']
 ---
 
 # TiDB Specific System Variables
@@ -262,7 +262,7 @@ set @@global.tidb_distsql_scan_concurrency = 10
 
     This variable does not affect automatically committed implicit transactions and internally executed transactions in TiDB. The maximum retry count of these transactions is determined by the value of `tidb_retry_limit`.
 
-    To decide whether you can enable automatic retry, see [description of optimistic transactions](/dev/reference/transactions/transaction-isolation.md#description-of-optimistic-transactions).
+    To decide whether you can enable automatic retry, see [description of optimistic transactions](reference/transactions/transaction-isolation.md#description-of-optimistic-transactions).
 
 ### tidb_back_off_weight
 

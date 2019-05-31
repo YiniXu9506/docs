@@ -2,7 +2,7 @@
 title: TiDB Controller User Guide
 summary: Use TiDB Controller to obtain TiDB status information for debugging.
 category: reference
-aliases: ['/docs/tools/tidb-controller/']
+aliases: ['/docs/dev/tools/tidb-controller/']
 ---
 
 # TiDB Controller User Guide

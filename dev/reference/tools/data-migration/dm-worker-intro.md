@@ -2,7 +2,7 @@
 title: DM-worker Introduction
 summary: Learn the features of DM-worker.
 category: reference
-aliases: ['/docs/tools/dm/dm-worker-intro/'] 
+aliases: ['/docs/dev/tools/dm/dm-worker-intro/'] 
 ---
 
 # DM-worker Introduction

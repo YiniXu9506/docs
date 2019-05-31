@@ -2,7 +2,7 @@
 title: Connectors and APIs 
 summary: Learn about the connectors and APIs.
 category: reference
-aliases: ['/docs/sql/connection-and-APIs/'] 
+aliases: ['/docs/dev/sql/connection-and-APIs/'] 
 ---
 
 # Connectors and APIs
@@ -35,7 +35,7 @@ Oracle develops the following APIs and TiDB is compatible with all of them:
 - [MySQL Connector/J](https://dev.mysql.com/doc/refman/5.7/en/connector-j-info.html)：to enable Java applications to connect to MySQL using the standard JDBC API
 - [MySQL Connector/Net](https://dev.mysql.com/doc/refman/5.7/en/connector-net-info.html)：to enable .Net applications to connect to MySQL; [MySQL for Visual Studio](https://dev.mysql.com/doc/visual-studio/en/) uses this; support Microsoft Visual Studio 2012, 2013, 2015 and 2017 versions
 - [MySQL Connector/ODBC](https://dev.mysql.com/doc/refman/5.7/en/connector-odbc-info.html)：the standard ODBC API; support Windows, Unix, and OS X platforms
-- [MySQL Connector/Python](https://dev.mysql.com/doc/refman/5.7/en/connector-python-info.html)：to enable Python applications to connect to MySQL, compliant with the [Python DB API version 2.0](http://www.python.org/dev/peps/pep-0249/)
+- [MySQL Connector/Python](https://dev.mysql.com/doc/refman/5.7/en/connector-python-info.html)：to enable Python applications to connect to MySQL, compliant with the [Python DB API version 2.0](http://www.python.orgpeps/pep-0249/)
 
 ## Connect to TiDB using MySQL C API
 

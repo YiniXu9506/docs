@@ -2,12 +2,12 @@
 title: Key Metrics
 summary: Learn some key metrics displayed on the Grafana Overview dashboard.
 category: reference
-aliases: ['/docs/op-guide/dashboard-overview-info/']
+aliases: ['/docs/dev/op-guide/dashboard-overview-info/']
 ---
 
 # Key Metrics
 
-If you use Ansible to deploy the TiDB cluster, the monitoring system is deployed at the same time. For more information, see [TiDB Monitoring Framework Overview](/dev/how-to/monitor/overview.md).
+If you use Ansible to deploy the TiDB cluster, the monitoring system is deployed at the same time. For more information, see [TiDB Monitoring Framework Overview](how-to/monitor/overview.md).
 
 The Grafana dashboard is divided into a series of sub dashboards which include Overview, PD, TiDB, TiKV, Node\_exporter, Disk Performance, and so on. A lot of metrics are there to help you diagnose.
 

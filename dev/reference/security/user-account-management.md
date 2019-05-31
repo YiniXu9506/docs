@@ -2,7 +2,7 @@
 title: TiDB User Account Management
 summary: Learn how to manage a TiDB user account.
 category: reference
-aliases: ['/docs/sql/user-account-management/']
+aliases: ['/docs/dev/sql/user-account-management/']
 ---
 
 # TiDB User Account Management
@@ -126,4 +126,4 @@ If you modified the grant tables directly, run the following command to apply ch
 FLUSH PRIVILEGES;
 ```
 
-For details, see [Privilege Management](/dev/reference/security/privilege-system.md).
+For details, see [Privilege Management](reference/security/privilege-system.md).

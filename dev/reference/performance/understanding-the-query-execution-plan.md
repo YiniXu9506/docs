@@ -2,7 +2,7 @@
 title: Understand the Query Execution Plan
 summary: Learn about the execution plan information returned by the `EXPLAIN` statement in TiDB.
 category: reference
-aliases: ['/docs/sql/understanding-the-query-execution-plan/']
+aliases: ['/docs/dev/sql/understanding-the-query-execution-plan/']
 ---
 
 # Understand the Query Execution Plan
@@ -32,7 +32,7 @@ Currently, the `EXPLAIN` statement returns the following four columns: id, count
 
 ### Example usage
 
-Using the [bikeshare example database](/dev/how-to/get-started/import-example-database.md):
+Using the [bikeshare example database](how-to/get-started/import-example-database.md):
 
 ```sql
 mysql> EXPLAIN SELECT count(*) FROM trips WHERE start_date BETWEEN '2017-07-01 00:00:00' AND '2017-07-01 23:59:59';

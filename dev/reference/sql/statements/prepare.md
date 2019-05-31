@@ -2,7 +2,7 @@
 title: PREPARE | TiDB SQL Statement Reference 
 summary: An overview of the usage of PREPARE for the TiDB database.
 category: reference
-aliases: ['/docs/sql/prepare/']
+aliases: ['/docs/dev/sql/prepare/']
 ---
 
 # PREPARE
@@ -42,5 +42,5 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [EXECUTE](/dev/reference/sql/statements/execute.md)
-* [DEALLOCATE](/dev/reference/sql/statements/deallocate.md)
+* [EXECUTE](reference/sql/statements/execute.md)
+* [DEALLOCATE](reference/sql/statements/deallocate.md)

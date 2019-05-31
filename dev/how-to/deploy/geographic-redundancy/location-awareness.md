@@ -2,7 +2,7 @@
 title: Cluster Topology Configuration
 summary: Learn to configure cluster topology to maximize the capacity for disaster recovery.
 category: how-to
-aliases: ['/docs/op-guide/location-awareness/']
+aliases: ['/docs/dev/op-guide/location-awareness/']
 ---
 
 # Cluster Topology Configuration
@@ -11,7 +11,7 @@ aliases: ['/docs/op-guide/location-awareness/']
 
 PD schedules according to the topology of the TiKV cluster to maximize the TiKV's capability for disaster recovery.
 
-Before you begin, see [Deploy TiDB Using Ansible (Recommended)](/dev/how-to/deploy/orchestrated/ansible.md) and [Deploy TiDB Using Docker](/dev/how-to/deploy/orchestrated/docker.md).
+Before you begin, see [Deploy TiDB Using Ansible (Recommended)](how-to/deploy/orchestrated/ansible.md) and [Deploy TiDB Using Docker](how-to/deploy/orchestrated/docker.md).
 
 ## TiKV reports the topological information
 

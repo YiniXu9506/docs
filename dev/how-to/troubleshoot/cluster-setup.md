@@ -2,7 +2,7 @@
 title: TiDB Cluster Troubleshooting Guide
 summary: Learn how to diagnose and resolve issues when you use TiDB.
 category: how-to
-aliases: ['/docs/trouble-shooting/']
+aliases: ['/docs/dev/trouble-shooting/']
 ---
 
 # TiDB Cluster Troubleshooting Guide
@@ -39,7 +39,7 @@ For other information, see [Frequently Asked Questions (FAQ)](/faq/tidb.md).
 See the following for the situations when the `tidb-server` cannot be started:
 
 - Error in the startup parameters.
-    See the [TiDB configuration and options](/dev/reference/configuration/tidb-server/configuration.md).
+    See the [TiDB configuration and options](reference/configuration/tidb-server/configuration.md).
 - The port is occupied.
     Use the `lsof -i:port` command to show all the networking related to a given port and make sure the port to start the `tidb-server` is not occupied.
 + Cannot connect to `pd-server`.
@@ -51,7 +51,7 @@ See the following for the situations when the `tidb-server` cannot be started:
 
 See the following for the situations when the `tikv-server` cannot be started:
 
-- Error in the startup parameters: See the [TiKV configuration and options](/dev/reference/configuration/tikv-server/configuration.md).
+- Error in the startup parameters: See the [TiKV configuration and options](reference/configuration/tikv-server/configuration.md).
 - The port is occupied: Use the `lsof -i:port` command to show all the networking related to a given port and make sure the port to start the `tikv-server` is not occupied.
 + Cannot connect to `pd-server`.
     - Check if the network between TiDB and PD is running smoothly, including whether the network can be pinged or if there is any issue with the Firewall configuration.
@@ -64,7 +64,7 @@ See the following for the situations when the `tikv-server` cannot be started:
 See the following for the situations when the `pd-server` cannot be started:
 
 - Error in the startup parameters.
-    See the [PD configuration and options](/dev/reference/configuration/pd-server/configuration.md).
+    See the [PD configuration and options](reference/configuration/pd-server/configuration.md).
 - The port is occupied.
     Use the `lsof -i:port` command to show all the networking related to a given port and make sure the port to start the `pd-server` is not occupied.
 
@@ -91,7 +91,7 @@ Before starting the process, make sure the result of `ulimit -n` is large enough
 
 ## Database access times out and the system load is too high
 
-First, check the [slow query log](/dev/how-to/maintain/identify-slow-queries.md) and see if it is because of some inappropriate SQL statement.
+First, check the [slow query log](how-to/maintain/identify-slow-queries.md) and see if it is because of some inappropriate SQL statement.
 If you failed to solve the problem, provide the following information:
 
 + The deployment topology

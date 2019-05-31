@@ -2,7 +2,7 @@
 title: Error Codes and Troubleshooting
 summary: Learn about the error codes and solutions in TiDB.
 category: reference
-aliases: ['/docs/sql/error/']
+aliases: ['/docs/dev/sql/error/']
 ---
 
 # Error Codes and Troubleshooting
@@ -28,4 +28,4 @@ TiDB is compatible with the error codes in MySQL, and in most cases returns the 
 
 ## Troubleshooting
 
-See the [troubleshooting](/dev/how-to/troubleshoot/cluster-setup.md) and [FAQ](/faq/tidb.md) documents.
+See the [troubleshooting](how-to/troubleshoot/cluster-setup.md) and [FAQ](/faq/tidb.md) documents.

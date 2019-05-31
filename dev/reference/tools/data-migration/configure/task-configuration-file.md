@@ -2,7 +2,7 @@
 title: Data Migration Task Configuration File
 summary: This document introduces the task configuration file of Data Migration.
 category: reference
-aliases: ['/docs/tools/dm/task-configuration-file-intro/']
+aliases: ['/docs/dev/tools/dm/task-configuration-file-intro/']
 ---
 
 # Data Migration Task Configuration File
@@ -14,7 +14,7 @@ For the feature and configuration of each configuration item, see [Data Synchron
 
 ## Important concepts
 
-For description of important concepts including `source-id` and the DM-worker ID, see [Important concepts](/dev/reference/tools/data-migration/configure/overview.md#important-concepts).
+For description of important concepts including `source-id` and the DM-worker ID, see [Important concepts](reference/tools/data-migration/configure/overview.md#important-concepts).
 
 ## Configuration order
 
