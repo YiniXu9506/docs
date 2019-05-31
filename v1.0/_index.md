@@ -1,5 +1,6 @@
 ---
-title: About TiDB
+title: docs v1.0
+url: /docs/v1.0
 category: introduction
 ---
 
