@@ -97,6 +97,6 @@ mysql> SELECT * FROM t1;
 
 ## See also
 
-* [DROP TABLE](/dev/reference/sql/statements/drop-table.md)
-* [CREATE TABLE LIKE](/dev/reference/sql/statements/create-table-like.md)
-* [SHOW CREATE TABLE](/dev/reference/sql/statements/show-create-table.md)
+* [DROP TABLE](reference/sql/statements/drop-table.md)
+* [CREATE TABLE LIKE](reference/sql/statements/create-table-like.md)
+* [SHOW CREATE TABLE](reference/sql/statements/show-create-table.md)

@@ -15,7 +15,7 @@ A problematic SQL statement can increase the pressure on the entire cluster, res
 
 ## Obtain the log
 
-In TiDB, the statements whose execution time exceeds [slow-threshold](/dev/reference/configuration/tidb-server/configuration-file.md#slow-threshold) are individually output to [slow-query-file](/dev/reference/configuration/tidb-server/configuration-file.md#slow-query-file) by default, the format of the slow log is compatible, and the slow log file can be directly analyzed with `pt-query-digest`. `slow-threshold` can be modified by the configuration file, which is set to 300ms by default. `slow-query-file` is set to `tidb-slow.log` by default.
+In TiDB, the statements whose execution time exceeds [slow-threshold](reference/configuration/tidb-server/configuration-file.md#slow-threshold) are individually output to [slow-query-file](reference/configuration/tidb-server/configuration-file.md#slow-query-file) by default, the format of the slow log is compatible, and the slow log file can be directly analyzed with `pt-query-digest`. `slow-threshold` can be modified by the configuration file, which is set to 300ms by default. `slow-query-file` is set to `tidb-slow.log` by default.
 
 ## Usage example
 
@@ -55,7 +55,7 @@ select * from t_slim, t_wide where t_slim.c0=t_wide.c0;
 * `Is_internal`: Whether the SQL statement is TiDB internal. `true` indicates that the SQL statement is executed internally in TiDB, such as Analyze, load variables, etc.; `false` indicates the SQL statement is executed by the user.
 * `Digest`: The fingerprint of the SQL statement.
 * `Memory_max`: Indicates the maximum memory space used during the execution period of this SQL statement (the unit is byte).
-* `Num_cop_tasks`: The number of [cop-tasks](/dev/reference/performance/understanding-the-query-execution-plan.md).
+* `Num_cop_tasks`: The number of [cop-tasks](reference/performance/understanding-the-query-execution-plan.md).
 * `Cop_proc_avg`: The average execution time of cop-tasks.
 * `Cop_proc_p90`: The P90 execution time of cop-tasks.
 * `Cop_proc_max`: The maximum execution time of cop-tasks.

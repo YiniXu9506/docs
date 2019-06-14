@@ -65,5 +65,5 @@ This statement is syntactically similar with MySQL. However, `ANALYZE TABLE` may
 
 ## See also
 
-* [EXPLAIN](/dev/reference/sql/statements/explain.md)
-* [EXPLAIN ANALYZE](/dev/reference/sql/statements/explain-analyze.md)
+* [EXPLAIN](reference/sql/statements/explain.md)
+* [EXPLAIN ANALYZE](reference/sql/statements/explain-analyze.md)

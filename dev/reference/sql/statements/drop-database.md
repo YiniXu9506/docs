@@ -60,6 +60,6 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [CREATE DATABASE](/dev/reference/sql/statements/create-database.md)
-* [ALTER DATABASE](/dev/reference/sql/statements/alter-database.md)
-* [SHOW CREATE DATABASE](/dev/reference/sql/statements/show-create-database.md)
+* [CREATE DATABASE](reference/sql/statements/create-database.md)
+* [ALTER DATABASE](reference/sql/statements/alter-database.md)
+* [SHOW CREATE DATABASE](reference/sql/statements/show-create-database.md)

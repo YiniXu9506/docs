@@ -95,7 +95,7 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [DELETE](/dev/reference/sql/statements/delete.md)
-* [SELECT](/dev/reference/sql/statements/select.md)
-* [UPDATE](/dev/reference/sql/statements/update.md)
-* [REPLACE](/dev/reference/sql/statements/replace.md)
+* [DELETE](reference/sql/statements/delete.md)
+* [SELECT](reference/sql/statements/select.md)
+* [UPDATE](reference/sql/statements/update.md)
+* [REPLACE](reference/sql/statements/replace.md)

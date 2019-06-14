@@ -67,8 +67,8 @@ ERROR 1141 (42000): There is no such grant defined for user 'newuser' on host '%
 
 ## See also
 
-* [CREATE USER](/dev/reference/sql/statements/create-user.md)
-* [ALTER USER](/dev/reference/sql/statements/alter-user.md)
-* [SHOW CREATE USER](/dev/reference/sql/statements/show-create-user.md)
-* [Privilege Management](/dev/reference/security/privilege-system.md)
+* [CREATE USER](reference/sql/statements/create-user.md)
+* [ALTER USER](reference/sql/statements/alter-user.md)
+* [SHOW CREATE USER](reference/sql/statements/show-create-user.md)
+* [Privilege Management](reference/security/privilege-system.md)
 

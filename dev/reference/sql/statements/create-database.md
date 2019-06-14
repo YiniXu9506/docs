@@ -56,5 +56,5 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [USE](/dev/reference/sql/statements/use.md)
-* [DROP DATABASE](/dev/reference/sql/statements/drop-database.md)
+* [USE](reference/sql/statements/use.md)
+* [DROP DATABASE](reference/sql/statements/drop-database.md)

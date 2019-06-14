@@ -75,7 +75,7 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [SHOW \[GLOBAL|SESSION\] VARIABLES](/dev/reference/sql/statements/show-variables.md)
-* [SET <variable>](/dev/reference/sql/statements/set-variable.md)
-* [Character Set Support](/dev/reference/sql/character-set.md)
+* [SHOW \[GLOBAL|SESSION\] VARIABLES](reference/sql/statements/show-variables.md)
+* [SET <variable>](reference/sql/statements/set-variable.md)
+* [Character Set Support](reference/sql/character-set.md)
 

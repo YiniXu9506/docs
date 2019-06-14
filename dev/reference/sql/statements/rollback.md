@@ -39,6 +39,6 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [COMMIT](/dev/reference/sql/statements/commit.md)
-* [BEGIN](/dev/reference/sql/statements/begin.md)
-* [START TRANSACTION](/dev/reference/sql/statements/start-transaction.md)
+* [COMMIT](reference/sql/statements/commit.md)
+* [BEGIN](reference/sql/statements/begin.md)
+* [START TRANSACTION](reference/sql/statements/start-transaction.md)

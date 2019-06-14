@@ -70,6 +70,6 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [SHOW CREATE TABLE](/dev/reference/sql/statements/show-create-table.md)
-* [DROP INDEX](/dev/reference/sql/statements/drop-index.md)
-* [CREATE INDEX](/dev/reference/sql/statements/create-index.md)
+* [SHOW CREATE TABLE](reference/sql/statements/show-create-table.md)
+* [DROP INDEX](reference/sql/statements/drop-index.md)
+* [CREATE INDEX](reference/sql/statements/create-index.md)

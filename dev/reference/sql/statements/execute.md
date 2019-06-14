@@ -45,5 +45,5 @@ This statement is understood to be fully compatible with MySQL. Any compatibilit
 
 ## See also
 
-* [PREPARE](/dev/reference/sql/statements/prepare.md)
-* [DEALLOCATE](/dev/reference/sql/statements/deallocate.md)
+* [PREPARE](reference/sql/statements/prepare.md)
+* [DEALLOCATE](reference/sql/statements/deallocate.md)
